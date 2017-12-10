@@ -1,0 +1,12 @@
+client.cpp: This is the client which read the file and print out the result.
+server_and.cpp: This is the AND server.
+server_or.cpp: This is the OR server.
+edge.cpp: This is the edge server.
+
+To Run the project:
+    1. Have a input file, like: job.txt.
+    2. make all: compile all .cpp files.
+    3. make serverAnd: run server_and.
+    4. make serverOr: run server_or.
+    5. make edge: run edge server.
+    6. ./client <file-name>: run client.
